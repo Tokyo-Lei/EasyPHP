@@ -1,0 +1,25 @@
+{
+    "name": "Tokyo-Lei/easy-php2",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.2.0",
+        "filp/whoops": "*",
+        "noahbuscher/macaw": "dev-master",
+        "twig/twig": "^2.0",
+        "illuminate/database": "^5.8.9"
+    },
+    "authors": [
+        {
+            "name": "Tokyo-Lei",
+            "email": "krosash@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/",
+            "Core\\":"Core/"
+        },
+        "files":[]
+    }
+
+}
