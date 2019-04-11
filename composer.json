@@ -6,7 +6,8 @@
         "filp/whoops": "*",
         "noahbuscher/macaw": "dev-master",
         "twig/twig": "^2.0",
-        "illuminate/database": "^5.8.9"
+        "illuminate/database": "^5.8.9",
+        "monolog/monolog": "^1.24"
     },
     "authors": [
         {

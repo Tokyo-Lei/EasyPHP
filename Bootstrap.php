@@ -1,5 +1,7 @@
 <?php
 
+use Monolog\Logger;
+use Monolog\Handler\StreamHandler;
 
 class Bootstrap {
     //定义一个run方法
@@ -27,9 +29,16 @@ class Bootstrap {
 
 
         // cache
-        if (!is_dir(ROOT.'/Cache/')) {
-            mkdir(ROOT.'/Cache/', 0700);
+        if (!is_dir(ROOT.'/Storage/Cache/')) {
+            mkdir(ROOT.'/Storage/Cache/', 0700);
         }
+
+
+        /**
+         * 初始化日志系统
+         */
+        $log = new Logger('name');
+        $log->pushHandler(new StreamHandler(ROOT.'/Storage/Logs/', Logger::WARNING));
 
     }
 

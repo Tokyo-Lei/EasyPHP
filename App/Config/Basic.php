@@ -4,7 +4,7 @@
 return [
 
     'debug' => true,
-    'cache' => ROOT.'/Cache',
+    'cache' => ROOT.'/Storage/Cache',
     'view_path' => APP_PATH.'/Home/View'
 
 ];
