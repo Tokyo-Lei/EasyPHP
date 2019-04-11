@@ -1,2 +1,2 @@
 # EasyPHP Framework
-![](/Public/Uploads/logo.jpg)
+![](/Public/logo.jpg)
