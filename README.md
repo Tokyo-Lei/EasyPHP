@@ -28,11 +28,11 @@
 
 ## 目录架构
 ```php
-App		前后台PHP文件目录
+  App		前后台PHP文件目录
    |-	Home	前台目录
    |-	Admin	后台目录
    |-	Config 配置目录
-Public		放置CSS、JS、IMG等目录
+Public	放置CSS、JS、IMG等目录
    |-	Home	前台静态资源目录
    |-	Admin	后台静态资源目录
    |- index.php前台框架入口文件
@@ -42,7 +42,7 @@ Core  核心目录
 Storage  日志缓存目录
 vendor  composer依赖文件目录
 Bootstrap.php 启动文件
-.htaccess		伪静态、去掉index.php配置文件
+.htaccess 伪静态、去掉index.php配置文件
 ```
 
 ## 模板引擎
