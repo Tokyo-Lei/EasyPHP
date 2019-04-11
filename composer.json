@@ -19,7 +19,9 @@
             "App\\": "App/",
             "Core\\":"Core/"
         },
-        "files":[]
+        "files":[
+            "Core/Library/helpers.php"
+        ]
     }
 
 }
