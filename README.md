@@ -1,1 +1,2 @@
-# easyPHP2
+# EasyPHP Framework
+![](/Public/Uploads/logo.jpg)
